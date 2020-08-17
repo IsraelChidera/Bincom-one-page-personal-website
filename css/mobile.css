@@ -1,0 +1,48 @@
+header .header-content {
+    margin-top: 3rem;
+    padding: 0rem;
+    padding-top: 306px;
+    padding-bottom: 307px;
+}
+
+header .header-content h3 {
+    font-size: 2rem;
+}
+
+header .header-content h1 {
+    font-size: 1.4rem;
+}
+
+#about-me h1 {
+    font-size: 1.3rem;
+    margin-bottom: -2rem;
+}
+
+#about-me .row-one,
+#about-me .row-two,
+#about-me .row-three {
+    display: block;
+}
+
+.row-one .row-one-details,
+.row-two .row-two-details,
+.row-three .row-three-details {
+    padding: 1rem;
+    text-align: justify;
+}
+
+.row-two .row-two-img,
+.row-three .row-three-img {
+    padding: 1rem;
+    margin-right: 0rem;
+}
+
+#friends-section .row-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    min-height: 280vh;
+}
+
+#friends-section .row-grid div {
+    padding-bottom: -20px;
+}
